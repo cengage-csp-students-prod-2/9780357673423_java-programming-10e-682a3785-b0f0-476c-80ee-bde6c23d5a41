@@ -1,6 +1,6 @@
 // This is the code editor
 public class Example {
     public static void main(String[] args) {
-        System.out.println("This is a simple activity");
+        System.out.println("This is a simple activity.");
     }
 }
