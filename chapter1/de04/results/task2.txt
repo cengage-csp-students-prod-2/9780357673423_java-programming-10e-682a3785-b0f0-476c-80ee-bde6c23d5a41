@@ -1,0 +1,9 @@
+This output 
+is on the same line as the last one.
+But this is on a new line.
+
+Status: FAILED!
+Test: The program displays the correct output.
+Reason: The DebugOne4 program did not display the correct message. Expected to find 'This output is on the same line as the last one.' on its own line in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
