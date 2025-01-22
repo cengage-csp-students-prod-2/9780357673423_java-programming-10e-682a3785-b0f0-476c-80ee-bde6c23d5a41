@@ -1,5 +1,4 @@
-This output 
-is on the same line as the last one.
+This output is on the same line as the last one
 But this is on a new line.
 
 Status: FAILED!
