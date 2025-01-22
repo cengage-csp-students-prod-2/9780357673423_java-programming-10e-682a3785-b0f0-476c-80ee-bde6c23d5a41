@@ -1,0 +1,6 @@
+
+Status: FAILED!
+Test: The `TablesAndChairs` program prints the correct number of `X`s.
+Reason: The `TableAndChairs` program did not print the correct number of `X`s. expected:<40> but was:<0>
+Error : class java.lang.AssertionError
+- - - - - - - - - -
