@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `TableAndChairs` program prints the correct pattern.
-Reason: The first line of the pattern is incorrect. It should contain 2 'X's separated by 22 spaces.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-01-23 23:15:32.934348
