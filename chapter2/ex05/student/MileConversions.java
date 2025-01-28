@@ -5,6 +5,6 @@ public class MileConversions
         int INCHES_IN_MILE = 63360;
         int FEET_IN_MILE = 5280;
         int YARDS_IN_MILE = 1760;
-        int MILES = 1;
+        var MILES = 1;
     }
 }
