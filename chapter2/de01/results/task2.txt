@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `DebugTwo1` program accepts user input and displays the correct output.
+Reason: null
+Error : class java.util.InputMismatchException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DebugTwo1` program accepts user input and displays the correct output.
+Reason: null
+Error : class java.util.InputMismatchException
+- - - - - - - - - -
