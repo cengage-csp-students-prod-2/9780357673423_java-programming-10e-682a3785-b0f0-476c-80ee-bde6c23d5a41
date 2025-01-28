@@ -13,7 +13,7 @@ public class DebugTwo3
       result = a % b;
       remainder = a / b;
       System.out.println("Divide " + a + " by " + b);
-      System.out.println("Result is " + result);
-      System.out.println("Remainder is " + remainder);
+      System.out.println("Result is " + remainder);
+      System.out.println("Remainder is " + result);
    }
 }
