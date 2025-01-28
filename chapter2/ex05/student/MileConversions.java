@@ -6,7 +6,7 @@ public class MileConversions {
     public static final double YARDS_IN_MILE = 1760;
 
     public static main(String[] args) {
-        double miles = input.nextDouble();
+        float miles = input.nextDouble();
 
         double inches = miles * INCHES_IN_MILE;
         double feet = miles * FEET_IN_MILE;
