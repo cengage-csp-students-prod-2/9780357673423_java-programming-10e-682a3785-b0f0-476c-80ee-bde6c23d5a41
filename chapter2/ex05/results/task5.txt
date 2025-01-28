@@ -1,0 +1,13 @@
+
+Test: Create the `MileConversionsInteractive` class.
+Status: FAILED!
+Reason: Unable to locate the `MileConversionsInteractive` class. MileConversionsInteractive
+Error : class java.lang.ClassNotFoundException
+- - - - - - - - - -
+
+Status: FAILED!
+Check: 1
+Test: 
+Reason: MileConversionsInteractive
+Error : str - AssertionError
+Timestamp: 2025-01-28 17:15:02.398344
