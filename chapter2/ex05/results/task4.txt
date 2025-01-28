@@ -1,7 +1,7 @@
 
 Status: FAILED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the java files.
-Timestamp: 2025-01-28 17:33:31.124332
+Test: The program converts miles to inches, feet, and yards.
+Reason: Variable not found: miles
+Error : AssertionError - Failed
+Timestamp: 2025-01-28 17:36:07.939408
