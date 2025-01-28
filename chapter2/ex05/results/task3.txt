@@ -1,19 +1,7 @@
 
 Status: FAILED!
-Test: Assign a value to the `miles` variable. 
-Reason: A value was not found assigned to the `miles` variable.  null
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: Declared the `miles` variable. 
-Reason: Unable to find the `miles` variable.  null
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
 Check: 1
 Test: 
-Reason: nullCengage.message=null
-Error : str - AssertionError
-Timestamp: 2025-01-28 17:18:58.275134
+Reason: 
+Error : RuntimeError - There was an issue compiling the java files.
+Timestamp: 2025-01-28 17:20:58.998482
