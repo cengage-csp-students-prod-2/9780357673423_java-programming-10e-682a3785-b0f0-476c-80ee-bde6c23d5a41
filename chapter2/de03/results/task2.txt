@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Test: The `DebugTwo3` program accepts user input and displays the correct output.
-Reason: '11' and '23' were the integers used in this simulation. Unable to find 'Result is 0' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `DebugTwo3` program accepts user input and displays the correct output.
-Reason: '222' and '84' were the integers used in this simulation. Unable to find 'Result is 2' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-01-28 18:48:18.848715
