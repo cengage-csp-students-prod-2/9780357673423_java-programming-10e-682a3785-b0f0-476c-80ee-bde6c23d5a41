@@ -6,14 +6,14 @@ public class DebugTwo1
    {
       int oneInt;
       double oneDouble;
-      String oneString;
+      String oneString = "Java Programming";
       Scanner input = new Scanner(System.in);
       System.out.print("Enter an integer >> ");
       oneInt = input.nextInt();
       System.out.print("Enter a double >> ");
       oneDouble = input.nextDouble();
       System.out.print("Enter a string >> ");
-      oneString = input.nextLine();
+      System.out.println(oneString);
       System.out.print("The int is ");
       System.out.println(oneInt);
       System.out.print("The double is ");
