@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Test: The `DebugTwo4` program accepts user input and displays the correct output.
-Reason: null
-Error : class java.util.InputMismatchException
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `DebugTwo4` program accepts user input and displays the correct output.
-Reason: null
-Error : class java.util.InputMismatchException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-01-29 01:56:02.283646
