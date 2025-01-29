@@ -9,7 +9,7 @@ public class DebugTwo4
       System.out.print("Enter cost of purchase >> ");
       cost = inputDevice.nextInt();
       System.out.println("Cost is $" + cost);
-      System.out.println("With " + (TAX * 1000) + "% tax,");
+      System.out.println("With " + (TAX * 100) + "% tax,");
       System.out.println("   the total is $" + (cost + (cost * TAX)));
    }
 }
