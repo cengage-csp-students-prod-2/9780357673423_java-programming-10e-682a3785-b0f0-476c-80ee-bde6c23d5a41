@@ -9,9 +9,9 @@ public class InchesToFeetInteractive {
         inches = inputDevice.nextDouble();
 
         int feet = (int) (inches / 12);
-        int remainingInches = (int) Math.round(inches % 12);
+        int remainingInches = (int) (inches % 12);
 
         System.out.print(inches + " inches converted into feet is "
-            + feet + " and " + remainingInches + " inches");
+            + feet + " feet " + "and " + remainingInches + " inches");
     }
 }
