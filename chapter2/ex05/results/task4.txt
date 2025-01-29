@@ -1,7 +1,8 @@
 
 Status: FAILED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the java files.
-Timestamp: 2025-01-29 14:35:05.107531
+Test: The program converts miles to inches, feet, and yards.
+Reason: Unable to find '10 miles in inches, feet, and yards.' in the program's output.
+
+Error : AssertionError - 
+Timestamp: 2025-01-29 14:35:45.791196
