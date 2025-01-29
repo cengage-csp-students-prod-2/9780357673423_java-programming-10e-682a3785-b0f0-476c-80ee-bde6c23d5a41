@@ -7,7 +7,7 @@ public class DebugTwo4
       final double TAX = 0.06;
       Scanner inputDevice = new Scanner(System.in);
       System.out.print("Enter cost of purchase >> ");
-      cost = inputDevice.nextInt();
+      cost = inputDevice.nextDouble();
       System.out.println("Cost is $" + cost);
       System.out.println("With " + (TAX * 100) + "% tax,");
       System.out.println("   the total is $" + (cost + (cost * TAX)));
