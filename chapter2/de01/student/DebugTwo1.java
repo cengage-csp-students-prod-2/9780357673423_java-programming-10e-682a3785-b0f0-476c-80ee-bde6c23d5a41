@@ -4,14 +4,14 @@ public class DebugTwo1
 {
    public static void main(String[] args)
    {
-      double oneInt;
+      int oneInt;
       double oneDouble;
       String oneString;
       Scanner input = new Scanner(System.in);
       System.out.print("Enter an integer >> ");
       oneInt = input.nextInt();
       System.out.print("Enter a double >> ");
-      oneDouble = input.nextInt();
+      oneDouble = input.nextDouble();
       System.out.print("Enter a string >> ");
       oneString = input.nextLine();
       System.out.print("The int is ");
