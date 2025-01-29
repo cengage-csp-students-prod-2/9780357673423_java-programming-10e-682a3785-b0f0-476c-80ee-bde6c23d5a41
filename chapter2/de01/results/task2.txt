@@ -1,12 +1,12 @@
 
 Status: FAILED!
 Test: The `DebugTwo1` program accepts user input and displays the correct output.
-Reason: null
-Error : class java.util.InputMismatchException
+Reason: 'Java Programming' was the String provided to the `DebugTwo1` program. Unable to find 'The String is Java Programming' in the program's output.
+Error : class java.lang.AssertionError
 - - - - - - - - - -
 
 Status: FAILED!
 Test: The `DebugTwo1` program accepts user input and displays the correct output.
-Reason: null
-Error : class java.util.InputMismatchException
+Reason: 'Roystonea oleracea' was the String provided to the `DebugTwo1` program. Unable to find 'The String is Roystonea oleracea' in the program's output.
+Error : class java.lang.AssertionError
 - - - - - - - - - -
