@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Test: The program converts the simulated user input to feet.
-Reason: The simulated user input was 212. 212 inches converted to feet is 17 feet and 8 inches. Unable to find '17 feet' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The program converts the simulated user input to feet.
-Reason: The simulated user input was 1123. 1123 inches converted to feet is 93 feet and 7 inches. Unable to find '93 feet' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-01-29 15:44:13.625976
