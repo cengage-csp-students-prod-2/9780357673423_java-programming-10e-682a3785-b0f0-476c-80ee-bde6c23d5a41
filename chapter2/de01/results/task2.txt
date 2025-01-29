@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `DebugTwo1` program accepts user input and displays the correct output.
-Reason: 'Roystonea oleracea' was the String provided to the `DebugTwo1` program. Unable to find 'The String is Roystonea oleracea' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-01-29 14:29:53.178783
