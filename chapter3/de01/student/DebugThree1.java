@@ -14,10 +14,10 @@ public class DebugThree1
       System.out.print("Enter the amount of your friend's check >> ");
       check2 = input.nextDouble();
 
-      calculateTip(check1);
-      calculateTip(check2);
+      calcTip(check1);
+      calcTip(check2);
     }
-    public static double calculateTip(double bill)
+    public static double calcTip(double bill)
     {
        final double RATE = 0.15;
        double tip = bill * RATE;
