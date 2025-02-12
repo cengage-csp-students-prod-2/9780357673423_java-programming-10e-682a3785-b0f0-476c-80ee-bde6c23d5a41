@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Test: The `add()` method returns or display two integers added together.
-Reason: Unable to locate the `add()` method. Make sure the method name is correct and it accepts two `int` arguments. DebugThree2.add(int, int)
-Error : class java.lang.NoSuchMethodException
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `add()` method returns or display two integers added together.
-Reason: Unable to locate the `add()` method. Make sure the method name is correct and it accepts two `int` arguments. DebugThree2.add(int, int)
-Error : class java.lang.NoSuchMethodException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-02-12 16:11:26.696220
