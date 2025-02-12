@@ -25,10 +25,10 @@ public class PaintCalculator
     public static double computeGallons(double wallArea){
         return wallArea / 350;
     }
-    
+
     public static double computeArea(double l, double h, double w)
     {
-        double wallArea = (l * w * h);
+        double wallArea = 2 * h * (l + w);
         double gallonsNeeded = computeGallons(wallArea);
         System.out.println("You will need " + gallonsNeeded + " gallons");
         double price = gallonsNeeded * 32;
