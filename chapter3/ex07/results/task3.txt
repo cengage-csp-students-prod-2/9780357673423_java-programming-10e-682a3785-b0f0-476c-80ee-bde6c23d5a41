@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `computeArea()` method returns the price of the paint needed.
+Reason: The `computeArea()` should return the price for a '12.5 x 12.5 x 9' room. expected:<41.142857142857146> but was:<128.57142857142858>
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `computeArea()` method returns the price of the paint needed.
+Reason: The `computeArea()` should return the price for a '15.3 x 10.5 x 10.0' room. expected:<47.177142857142854> but was:<146.88>
+Error : class java.lang.AssertionError
+- - - - - - - - - -

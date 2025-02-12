@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `PaintCalculator` program displays the gallons needed and the cost of painting a room.
+Reason: The simulated room dimensions are 20.3x14.7x9.0. 1.8 gallons are needed to paint this room. Unable to find '1.8 gallons' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `PaintCalculator` program displays the gallons needed and the cost of painting a room.
+Reason: The simulated room dimensions are 5.5x3.2x9.0. 0.4474285714285714 gallons are needed to paint this room. Unable to find '0.4474285714285714 gallons' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
