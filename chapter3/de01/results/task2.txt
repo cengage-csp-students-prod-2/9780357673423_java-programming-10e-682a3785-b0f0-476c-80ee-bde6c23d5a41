@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Test: The `calcTip()` method returns or display the bill with a 15% gratuity.
-Reason: Unable to locate the `calcTip()` method. Make sure the method name is correct and accepts a `double` as an single argument value. DebugThree1.calcTip(double)
-Error : class java.lang.NoSuchMethodException
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `calcTip()` method returns or display the bill with a 15% gratuity.
-Reason: Unable to locate the `calcTip()` method. Make sure the method name is correct and it saccepts a `double` as an single argument value. DebugThree1.calcTip(double)
-Error : class java.lang.NoSuchMethodException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-02-12 14:47:25.877359
