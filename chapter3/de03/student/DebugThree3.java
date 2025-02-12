@@ -3,22 +3,21 @@
 import java.util.Scanner;
 public class DebugThree3
 {
-   public static void main(String args[])
+   public static void main(String[] args)
    {
       String name;
-      name = getName()
-      displayGreeting(namme);           
+      name = getName();
+      displayGreeting(name);           
    }
-   public static String getName(void)
+   public static String getName()
    {
       String name;
       Scanner input = new Scanner(System.in);
-      System.in.print("Enter name ");
-      name = input.nexlLine();
-      return namer;
+      System.out.print("Enter name >> ");
+      return input.nextLine();
    }
-   public static displayGreeting(String name)
+   public static void displayGreeting(String name)
    {
-      System.outprintln("Hello, " + name + "!");
+      System.out.println("Hello, " + name + "!");
    }
 }
