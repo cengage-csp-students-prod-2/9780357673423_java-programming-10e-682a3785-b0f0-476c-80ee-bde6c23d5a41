@@ -13,28 +13,24 @@ public class DebugThree2
       System.out.print("Enter a third integer >> ");
       c = input.nextInt();
 
-      add(a + b, b + c, a + c);
-      subtract(a, b, c);
+      add(a, b);
+      add(b, c);
+      add(a, c);
+      subtract(a, b);
+      subtract(b, c);
+      subtract(a, c);
 
    }
 
-   public static void add(int a, int b, int c)
+   public static void add(int a, int b)
    {
    System.out.println("The sum of " + a + " and " + b + " is "
          + (a + b));
-   System.out.println("The sum of " + b + " and " + c + " is "
-         + (b + c));
-   System.out.println("The sum of " + a + " and " + c + " is "
-          + (a + c));
    }
 
-   public static void subtract(int a, int b, int c)
+   public static void subtract(int a, int b)
    {
       System.out.println("The difference of " + a + " and " + b + " is "
          + (a - b));
-      System.out.println("The difference of " + b + " and " + c + " is "
-         + (b - c));
-      System.out.println("The difference of " + a + " and " + c + " is "
-         + (a - c));
    }
 }
