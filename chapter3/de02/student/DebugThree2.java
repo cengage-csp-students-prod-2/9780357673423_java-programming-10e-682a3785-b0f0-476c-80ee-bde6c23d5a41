@@ -13,7 +13,7 @@ public class DebugThree2
       System.out.print("Enter a third integer >> ");
       c = input.nextInt();
 
-      add(a, b, c);
+      add(a + b, b + c, a + c);
       subtract(a, b, c);
 
    }
