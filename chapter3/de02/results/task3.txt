@@ -1,0 +1,18 @@
+
+Status: FAILED!
+Test: The `subtract()` method returns or display two integers added together.
+Reason: Unable to locate the `subtract()` method. Make sure the method name is correct and it accepts two `int` arguments. DebugThree2.subtract(int, int)
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `subtract()` method returns or display two integers added together.
+Reason: Unable to locate the `subtract()` method. Make sure the method name is correct and it accepts two `int` arguments. DebugThree2.subtract(int, int)
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `subtract()` method returns or display two integers added together.
+Reason: Unable to locate the `subtract()` method. Make sure the method name is correct and it accepts two `int` arguments. DebugThree2.subtract(int, int)
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
