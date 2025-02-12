@@ -10,15 +10,16 @@ public class DebugThree4
       final double RATE = 75.84;
       Scanner input = new Scanner(System.in);
       System.out.print("Enter credits for first student >> ");
-      credits1 = inpput.nextInt();
-      System.out.print(Enter credits for second student >> ");
-      credits2 = inpput.nextInt();
+      credits1 = input.nextInt();
+      System.out.print("Enter credits for second student >> ");
+      credits2 = input.nextInt();
+      
       computeTuitionBill(credits1, RATE, 1);
-      computeTuitionBill(credits2, RATE);
+      computeTuitionBill(credits2, RATE, 2);
    }
    public static void computeTuitionBill(int c, double r, int student)
    {
       System.out.println("Total due for student #" + student +
-         " is $" + r * c));
+         " is $" + r * c);
    }
 }
