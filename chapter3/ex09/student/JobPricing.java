@@ -24,6 +24,7 @@ public static void main(String[] args)
 
     System.out.println("The price for " + job_desc + " is $" + job_estimate);
 
+    input.close();
     }
     public static double computePrice(double hw, double mc, double ht)
     {
