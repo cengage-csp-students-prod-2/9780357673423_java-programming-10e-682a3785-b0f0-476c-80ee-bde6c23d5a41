@@ -28,7 +28,7 @@ public static void main(String[] args)
     }
     public static double computePrice(double hw, double mc, double ht)
     {
-
-    return (mc + (hw * 35) + (ht * 12));
+        double job_estimate;
+    return job_estimate = (mc + (hw * 35) + (ht * 12));
     }
 }
