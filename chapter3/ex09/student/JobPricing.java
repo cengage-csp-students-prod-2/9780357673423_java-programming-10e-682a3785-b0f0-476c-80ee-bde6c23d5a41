@@ -19,10 +19,10 @@ public static void main(String[] args)
     System.out.print("Enter hours traveling >> ");
     hours_traveled = input.nextDouble();
 
-    double estimated_price = computePrice(hours_worked, material_cost,
+    double job_estimate = computePrice(hours_worked, material_cost,
     hours_traveled);
 
-    System.out.print("The price for " + job_desc + " is $" + estimated_price);
+    System.out.println("The price for " + job_desc + " is $" + job_estimate);
 
     }
     public static double computePrice(double hw, double mc, double ht)
