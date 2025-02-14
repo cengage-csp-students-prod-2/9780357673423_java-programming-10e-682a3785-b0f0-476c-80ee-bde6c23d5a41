@@ -14,7 +14,7 @@ public class PaintCalculator
         System.out.print("Enter the room's height >> ");
         height = input.nextDouble();
 
-        double price = computeArea(length, height, width);
+        double price = computeArea(height, length, width);
 
         System.out.print("The price to paint the room is $" + price);
 
@@ -25,7 +25,7 @@ public class PaintCalculator
         return wallArea / 350;
     }
 
-    public static double computeArea(double l, double h, double w)
+    public static double computeArea(double h, double l, double w)
     {
         double wallArea = 2 * h * (l + w);
         double gallonsNeeded = computeGallons(wallArea);
