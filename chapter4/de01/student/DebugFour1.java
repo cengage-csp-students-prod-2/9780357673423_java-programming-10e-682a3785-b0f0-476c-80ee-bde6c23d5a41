@@ -7,12 +7,11 @@ public class DebugFour1
    {
       Scanner input = new Scanner(System.in);
       int radius;
-      DebugCircle c = new Circle();
       System.out.print("Enter a radius for a circle >> ");
       radius = input.nextInt();
-      c = new DebugCircle(c);
-      System.out.println("The radius is " + c.getRad());
-      System.out.println("The diamter is " + c.getDiam());
+      DebugCircle c = new DebugCircle(radius);
+      System.out.println("The radius is " + c.getRadius());
+      System.out.println("The diameter is " + c.getDiameter());
       System.out.println("The area is " + c.getArea());
    }
 }
