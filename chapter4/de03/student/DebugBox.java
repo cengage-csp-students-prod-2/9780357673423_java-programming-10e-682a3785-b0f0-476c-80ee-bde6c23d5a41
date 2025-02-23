@@ -12,15 +12,15 @@ public class DebugBox
    public DebugBox(int width, int length, int height)
    {
       this.width = width;
-      this.length = width;
-      this.height = width;
+      this.length = length;
+      this.height = height;
    }
    public void showData()
    {
       System.out.println("Width: "  + width + "  Length: " +
         length + "  Height: " + height);
    }
-   public getVolume()
+   public double getVolume()
    { 
       double vol = length * width * height;
       return vol;
