@@ -1,7 +1,7 @@
 public class DebugPen
 {
-   private String color;
-   private String point;
+   public String color;
+   public String point;
    public DebugPen()
    {
       color = "black";
@@ -9,8 +9,8 @@ public class DebugPen
    }
    public DebugPen(String color, String point)
    {
-      color = color;
-      point = point;
+      this.color = color;
+      this.point = point;
    }
    public String getColor()
    {

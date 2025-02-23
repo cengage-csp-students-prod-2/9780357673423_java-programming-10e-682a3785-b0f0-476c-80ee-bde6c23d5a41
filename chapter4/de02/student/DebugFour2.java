@@ -17,15 +17,17 @@ public class DebugFour2
       System.out.print("Enter a point size - fine, medium, or thick >> ");
       point = input.nextLine();
       pen1 = new DebugPen();
-      pen2 = new DebugPen(point, color);
+      pen2 = new DebugPen(color, point);
       System.out.println("Default value pen:");
       display(pen1);
       System.out.println("User value pen:");
-      display(pen22);
+      display(pen2);
+
+      input.close();
    }
-   public static void display(FixDebugPen p)
+   public static void display(DebugPen p)
    {
       System.out.println("   The pen has ink color " + p.getColor());
-      System.out.println("      and a " + p1.getPoint() + " point.");
+      System.out.println("      and a " + p.getPoint() + " point.");
    }
 }
