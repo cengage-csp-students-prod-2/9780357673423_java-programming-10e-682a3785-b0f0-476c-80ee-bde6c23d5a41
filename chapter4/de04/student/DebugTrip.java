@@ -19,8 +19,9 @@ public class DebugTrip
    }
    public DebugTrip(String destination, String departure)
    {
-       this(destination);
-       this(departure);
+      mode = DEFAULT_MODE;
+       this.destination = destination;
+       this.departure = departure;
    }
    public DebugTrip(String destination, String departure, String mode)
    {

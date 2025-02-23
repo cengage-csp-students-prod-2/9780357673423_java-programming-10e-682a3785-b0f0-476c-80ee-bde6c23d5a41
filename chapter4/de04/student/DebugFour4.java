@@ -12,7 +12,7 @@ public class DebugFour4
       String mode;
       DebugTrip trip1;
       DebugTrip trip2;
-      DebugTrip trip2;
+      DebugTrip trip3;
       System.out.print("Enter destination city >> ");
       destinationCity = input.nextLine();
       System.out.print("Enter departure city >> ");
@@ -29,7 +29,7 @@ public class DebugFour4
    public static void display(DebugTrip trip)
    {
       System.out.println("Going to " + trip.getDestination());
-      System.out.println("    Leaving from " + trp.getDepartureCity());
+      System.out.println("    Leaving from " + trip.getDepartureCity());
       System.out.println("    Going by " + trip.getMode());
    }
 }
