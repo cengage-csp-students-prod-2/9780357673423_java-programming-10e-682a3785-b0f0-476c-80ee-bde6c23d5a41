@@ -37,7 +37,7 @@ public class TestWedding
 
     System.out.println();
     System.out.println(brideLastName + "/" + groomLastName + " Wedding");
-    System.out.println("Date: " + wedding.getWeddingDate() + "  Location: " + wedding.getlocation());
+    System.out.println("Date: " + wedding.getWeddingDate() + "  Location: " + wedding.getLocation());
     System.out.println("Bride: " + brideFirstName + " " + brideLastName);
     System.out.println("Groom: " + groomFirstName + " " + groomLastName);
     
