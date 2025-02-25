@@ -1,0 +1,19 @@
+
+Status: FAILED!
+Test: Defined a `getLocation()` method.
+Reason: Wedding.getLocation()
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: Defined a `getLocation()` method.
+Reason: Wedding.getLocation()
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
+
+Status: FAILED!
+Check: 1
+Test: 
+Reason: Wedding.getLocation()Cengage.message=Wedding.getLocation()
+Error : str - AssertionError
+Timestamp: 2025-02-25 16:35:37.915724

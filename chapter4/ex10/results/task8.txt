@@ -1,0 +1,19 @@
+
+Status: FAILED!
+Test: Defined a `getGroom()` method.
+Reason: Couple.getGroom()
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: Defined a `getGroom()` method.
+Reason: Couple.getGroom()
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
+
+Status: FAILED!
+Check: 1
+Test: 
+Reason: Couple.getGroom()Cengage.message=Couple.getGroom()
+Error : str - AssertionError
+Timestamp: 2025-02-25 16:35:42.536461
