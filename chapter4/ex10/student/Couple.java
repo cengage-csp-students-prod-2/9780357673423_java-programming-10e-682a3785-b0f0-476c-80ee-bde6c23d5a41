@@ -17,7 +17,7 @@ class Couple{
     {
         return bride;
     }
-    public Person getgroom()
+    public Person getGroom()
     {
         return groom;
     }
