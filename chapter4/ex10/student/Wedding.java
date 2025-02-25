@@ -22,7 +22,7 @@ public Wedding(Couple couple, LocalDate weddingDate, String location){
     public LocalDate getWeddingDate(){
         return weddingDate;
     }
-    public String getlocation(){
+    public String getLocation(){
         return location;
     }
 }
