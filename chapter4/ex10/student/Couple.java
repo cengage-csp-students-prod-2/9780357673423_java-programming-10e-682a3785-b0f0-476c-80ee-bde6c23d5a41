@@ -1,1 +1,24 @@
-// Write your code here
+class Couple{
+    private Person bride;
+    private Person groom;
+
+    public Couple() {
+        this.bride = new Person();
+        this.groom = new Person();
+    }
+
+    public Couple(Person bride, Person groom)
+    {
+        this.bride = bride;
+        this.groom = groom;
+    }
+
+    public Person getBride()
+    {
+        return bride;
+    }
+    public Person getgroom()
+    {
+        return groom;
+    }
+}
