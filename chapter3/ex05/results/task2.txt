@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `computeDiscount` method computes the discount based off a GPA.
+Reason: wrong number of arguments
+Error : class java.lang.IllegalArgumentException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `computeDiscount` method computes the discount based off a GPA.
+Reason: wrong number of arguments
+Error : class java.lang.IllegalArgumentException
+- - - - - - - - - -
