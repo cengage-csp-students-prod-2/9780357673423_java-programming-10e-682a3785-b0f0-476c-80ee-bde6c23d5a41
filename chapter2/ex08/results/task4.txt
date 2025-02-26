@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The program displays the correct profit for the order.
+Reason: The simulated user input was for 2 adult meals and 4 child meals. The adult meal profit on the order is $5.300000000000001. Unable to find '$5.300000000000001' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The program displays the correct profit for the order.
+Reason: The simulated user input was for 1 adult meal and 5 child meals. The adult meal profit on the order is $2.6500000000000004. Unable to find '$2.6500000000000004' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -

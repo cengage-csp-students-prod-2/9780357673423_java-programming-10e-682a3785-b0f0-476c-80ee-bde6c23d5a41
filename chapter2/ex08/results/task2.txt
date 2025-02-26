@@ -1,0 +1,11 @@
+Enter number of adult meals ordered >> Enter number of child meals ordered >> 1 adult meals were ordered at $7.0 each.
+   Total is $7.0
+5 child meals were ordered at $4.0 each.
+   Total is $20.0
+Grand total for all meals is $27.0
+
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-02-26 03:04:56.662379
