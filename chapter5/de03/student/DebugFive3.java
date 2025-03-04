@@ -12,18 +12,19 @@ public class DebugFive3
       int item;
       String output;
       final int LOW = 111;
-      final int HIGH = 999;
       final int CUTOFF = 500;
+      final int HIGH = 999;
+
       Scanner input = new Scanner(System.in);
       System.out.print("Please enter item number >> ");
       item = input.nextInt();
-      if(item > LOW)
+      if(item < LOW)
          output = "Item number too low";
       else
-        if(item >= HIGHH)
+        if(item >= HIGH)
            output = "Item number too high";
         else
-           if(item == CUTOFF)
+           if(item <= CUTOFF)
               output = "Valid - Item in Automotive Department";
            else
               output = "Valid - Item in Housewares Department";
