@@ -11,11 +11,11 @@ public class DebugFive4
       System.out.print("Enter an integer >> ");
       one = input.nextInt();
       System.out.print("Enter an integer >> ");
-      one = input.nextInt();
+      two = input.nextInt();
       System.out.print("Enter an integer >> ");
-      one = input.nextInt();
+      three = input.nextInt();
       System.out.print("Enter an integer >> ");
-      one = input.nextInt();
+      four = input.nextInt();
       if(one > two && one > three && one > four)
          highest = one;
       else
