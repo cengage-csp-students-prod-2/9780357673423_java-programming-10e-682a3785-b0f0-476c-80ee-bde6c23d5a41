@@ -1,6 +1,12 @@
 
 Status: FAILED!
 Test: The `DebugFive3` program accepts user input and displays the correct output for a valid number.
+Reason: Hint: Do not alter the `System.out.println` messages provided in the starter file. In this simulation, the input value was 111.  Expected to find 'Valid - Item in Automotive Department' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DebugFive3` program accepts user input and displays the correct output for a valid number.
 Reason: Hint: Do not alter the `System.out.println` messages provided in the starter file. In this simulation, the input value was 999.  Expected to find 'Valid - Item in Housewares Department' in the program's output.
 Error : class java.lang.AssertionError
 - - - - - - - - - -
