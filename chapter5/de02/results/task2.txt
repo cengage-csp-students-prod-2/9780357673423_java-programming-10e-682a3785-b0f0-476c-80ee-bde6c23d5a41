@@ -1,0 +1,19 @@
+
+Test: The `DebugFive2` class does not contain a logic operator error.
+Status: FAILED!
+Reason: The `DebugFive2` class contains a logic error within a decision statement.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Test: The `DebugFive2` class does not contain an arithmetic logic error.
+Status: FAILED!
+Reason: Logic errors are more difficult to find as the code will still work but may produce unexpected results. The `DebugFive2` class contains an arithmetic logic error. expected:<2> but was:<1>
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Check: 1
+Test: 
+Reason: The `DebugFive2` class contains a logic error within a decision statement.Cengage.message=Logic errors are more difficult to find as the code will still work but may produce unexpected results. The `DebugFive2` class contains an arithmetic logic error. expected:<2> but was:<1>
+Error : str - AssertionError
+Timestamp: 2025-03-04 00:22:46.819187
