@@ -18,7 +18,7 @@ public class DebugFive3
       Scanner input = new Scanner(System.in);
       System.out.print("Please enter item number >> ");
       item = input.nextInt();
-      if(item < LOW)
+      if(item <= LOW)
          output = "Item number too low";
       else
         if(item >= HIGH)
