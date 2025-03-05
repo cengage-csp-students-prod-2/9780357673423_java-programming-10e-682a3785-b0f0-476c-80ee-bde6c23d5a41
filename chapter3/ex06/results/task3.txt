@@ -1,0 +1,6 @@
+
+Status: FAILED!
+Test: The `convertToYards()` method converts inches to yards.
+Reason: The `convertToYards()` method did not return the correct conversion of 1000 inches to 27.77777777777778 yards. expected:<27.77777777777778> but was:<27.777777777777775>
+Error : class java.lang.AssertionError
+- - - - - - - - - -
