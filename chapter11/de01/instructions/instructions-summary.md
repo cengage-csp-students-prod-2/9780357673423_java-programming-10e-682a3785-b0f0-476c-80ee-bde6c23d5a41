@@ -2,8 +2,6 @@
 
 The files provided in the code editor to the right contain syntax and/or logic errors. In each case, determine and fix the problem, remove all syntax and coding errors, and run the program to ensure it works properly.
 
-> The default file path for your project directory is `/home/nt-user/workspace/`.
-
 An example of the program is shown below:
 
 ```
