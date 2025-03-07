@@ -8,7 +8,7 @@ public class MinutesConversion
         double minutes, hours, days;
 
         System.out.print("Enter minutes >> ");
-        minutes = input.nextInt();
+        minutes = input.nextDouble();
         hours = (minutes / 60);
         days = (minutes / 1440);
         System.out.print(minutes + " minutes is " + hours + " hours or " + days + " days.");
