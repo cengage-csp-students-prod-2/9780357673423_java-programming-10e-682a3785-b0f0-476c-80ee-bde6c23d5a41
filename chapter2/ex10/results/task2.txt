@@ -1,0 +1,13 @@
+
+Status: FAILED!
+Test: The program converts minutes to hours and days.
+Reason: The simulated user input was for 4,500 minutes. Unable to find '3.125 days' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The program converts minutes to hours and days.
+Reason: The simulated user input was for 9,684 minutes. Unable to find '161.4 hours' in the program's output.
+161.0 was found instead. This is likely the result of implicit casting when dividing mixed data types.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
