@@ -5,13 +5,12 @@ public class MinutesConversion
     public static void main(String args[])
     {
         Scanner input = new Scanner(System.in);
-        int minutes;
-        double hours, days;
+        double minutes, hours, days;
 
         System.out.print("Enter minutes >> ");
         minutes = input.nextInt();
         hours = (minutes / 60);
-        days = ((minutes / 60) / 24);
+        days = (minutes / 1440);
         System.out.print(minutes + " minutes is " + hours + " hours or " + days + " days.");
     }
 }
