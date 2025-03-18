@@ -12,12 +12,15 @@ public class DebugSix1
       int day = 1;
       System.out.print("Enter number of days >> ");
       days = keyboard.nextInt();
-      while(days < day)
-      {
-         money = money * 2;
-         day = day++;
-         System.out.println("After day " + day + " you have " + money);
 
+      while(day <= days)
+      {
+         System.out.println("After day " + day + " you have " + money); 
+
+         money = money * 2;
+         day++;
       }
+
+      keyboard.close();
    }
 }
