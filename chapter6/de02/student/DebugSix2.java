@@ -8,7 +8,7 @@ public class DebugSix2
       Scanner keyboard = new Scanner(System.in);
       char letter;
       int a;
-      final int min;
+      int min;
       final int MAX = 122;
       final int NUMBERLINE = 20;
       int lines = 20;
@@ -19,10 +19,11 @@ public class DebugSix2
       {
          letter = (char)a;
          System.out.print("  " + letter);
-         if(lines = NUMBERLINE)
+         lines++;
+         if(lines == NUMBERLINE)
          {
            lines = 0;
-           System.out.println()
+           System.out.println();
          }
       }
       System.out.println("\nEnd of application");
