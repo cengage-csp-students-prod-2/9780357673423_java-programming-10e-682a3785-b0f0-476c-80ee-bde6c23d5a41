@@ -15,21 +15,23 @@ public class DebugSix3
       System.out.print("Enter a number between " + MIN +
          " and " + MAX + " >> ");
       userNum = keyboard.nextInt();
-      while(userNum < MIN && userNum < MAX)
+      while(userNum < MIN || userNum > MAX)
       {
          System.out.println("Number out of range");
          System.out.print("Enter a number between " + MIN + " and " +
             MAX + " inclusive >> ");
          userNum = keyboard.nextInt();
       }
-      for(val = userNum; val == 0; --val)
+      for(val = userNum; val > 0; --val)
       {
          System.out.print(val + "  ");
          for(int x = 0; x < TIME_WASTER; ++x)
-           for(int y = 0; y < TIMEWASTER; ++y)
-              for(int z = 0; z < TIME_WASTER;);
+           for(int y = 0; y < TIME_WASTER; ++y)
+              for(int z = 0; z < TIME_WASTER; ++z);
          // Adjust these numbers for faster or slower performance
       }
       System.out.println("Blastoff!");
+
+      keyboard.close();
    }
 }
