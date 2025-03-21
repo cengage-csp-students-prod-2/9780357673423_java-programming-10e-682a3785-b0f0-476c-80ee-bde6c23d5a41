@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `Population` program displays the population trends for Mexico and the United States based on user input.
+Reason: In this simulation, the Mexican population is increasing at 0.5% and the United States population is decreasing at 0.5%. The population of Mexico in year 23 should be 143.55865806397026. Unable to find '143.55865806397026' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `Population` program displays the population trends for Mexico and the United States based on user input.
+Reason: In this simulation, the Mexican population is increasing at 0.9% and the United States population is decreasing at 0.2%. The population of Mexico in year 8 should be 137.5115886837328. Unable to find '137.5115886837328' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
