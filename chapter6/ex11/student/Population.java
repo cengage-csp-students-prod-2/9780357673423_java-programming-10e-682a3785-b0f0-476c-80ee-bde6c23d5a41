@@ -28,11 +28,9 @@ public class Population{
             usPop = usPop - usPop * usDecrease;
             if(iteration == 2){
                 System.out.println(iteration + " " + mexPop + " million   " + usPop + " million");
-            }
-            if(iteration == 92){
+            } else if(mexPop >= usPop){
                 System.out.println("...\n...\n...");
-            }
-            if(iteration == 92 || iteration == 93){
+                System.out.println((iteration - 1) + " " + mexPop + " million   " + usPop + " million");
                 System.out.println(iteration + " " + mexPop + " million   " + usPop + " million");
             }
         }
