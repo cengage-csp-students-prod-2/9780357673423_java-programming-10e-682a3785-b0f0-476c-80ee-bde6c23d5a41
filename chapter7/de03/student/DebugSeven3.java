@@ -8,16 +8,16 @@ public class DebugSeven3
       String quote, charString;
       char searchChar;
       System.out.print("Enter a famous quote >> ");
-      quote = nextLine();
+      quote = kb.nextLine();
       System.out.print("Enter a character to search for >> ");
-      charString = kb.nextInt();
+      charString = kb.next();
       searchChar = charString.charAt(0);
       System.out.println("index of('" + searchChar + "') is: " +
-         quote.indexOf(searchChar);
-      System.out.println("index.of('a') is: " + quote.indexOf'a');
-      System.out.println("index.of('x') is: " + quote.indexOf('x'));
-      System.out.println("char.At(5) is: " + quote.charAt(5));
+         quote.indexOf(searchChar));
+      System.out.println("indexOf('a') is: " + quote.indexOf('a'));
+      System.out.println("indexOf('x') is: " + quote.indexOf('x'));
+      System.out.println("charAt(5) is: " + quote.charAt(5));
       System.out.println("replace('e', '*') is: " +
-         quote.repplace('e', '*'));
+         quote.replace('e', '*'));
    }
 }
