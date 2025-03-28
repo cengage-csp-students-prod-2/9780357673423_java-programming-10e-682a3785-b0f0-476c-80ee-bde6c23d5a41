@@ -17,8 +17,8 @@ public class DebugSeven2
       Scanner in = new Scanner(System.in);
       System.out.print("Enter a series of integers separated by spaces >> ");
       str = in.nextLine();
-      length = str.len();
-      for(x = 0; x < len; ++x)
+      length = str.length();
+      for(x = 0; x < length; ++x)
       {
          if(str.charAt(x) == ' ')
          {
@@ -30,9 +30,9 @@ public class DebugSeven2
           } 
       }
       partStr = str.substring(lastSpace + 1, length);
-      num = Integer.parseInt(parStr);
+      num = Integer.parseInt(partStr);
       System.out.println("                " + num);
-      sum = num;
+      sum += num;
       System.out.println("         -------------------" +
          "\nThe sum of the integers is " + sum);
    }
