@@ -29,7 +29,7 @@ public class ValidatePassword{
     if(upperCase >= upperLimit && lowerCase >= lowerLimit && digit >= digitLimit){
         System.out.println("Valid password");
     } else {
-        System.out.println("The password did not have enough: \n");
+        System.out.println("The password did not have enough: ");
         if(digit < digitLimit){
         System.out.println("digits");
         }
