@@ -10,9 +10,3 @@ Test: The `CountWords` program correctly counts the number of words in a `String
 Reason: The `String` in this simulation is 'When you come to a fork in the road, take it - Yogi Berra'. This `String` contains 13 words. Unable to find '13' in the program's output.
 Error : class java.lang.AssertionError
 - - - - - - - - - -
-
-Status: FAILED!
-Test: The `CountWords` program correctly counts the number of words in a `String`.
-Reason: The `String` in this simulation is '- ! ? ; , .. This `String` contains 0 words. Unable to find '0' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
