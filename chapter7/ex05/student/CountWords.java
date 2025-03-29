@@ -11,8 +11,7 @@ public class CountWords
 
         String cleanedQuote = quote.replaceAll("[-!?;.,^a-zA-Z0-9' ]", "");
 
-        String[] words = cleanedQuote.trim().split("\\s+");
-        int wordCount = (cleanedQuote.trim().isEmpty()) ? 0 : words.length;
+        int wordCount = cleanedQuote.isEmpty() ? 0 : cleanedQuote.trim().split("\\s+").length;
 
         System.out.println("There are " + wordCount + " words in the string");
 
