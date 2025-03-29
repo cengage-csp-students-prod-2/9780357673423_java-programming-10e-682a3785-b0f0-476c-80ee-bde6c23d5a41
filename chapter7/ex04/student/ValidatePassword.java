@@ -28,12 +28,18 @@ public class ValidatePassword{
 
     if(upperCase >= upperLimit && lowerCase >= lowerLimit && digit >= digitLimit){
         System.out.println("Valid password");
-    }else if(digit < digitLimit){
-        System.out.println("The password did not have enough: \ndigits");
-    }else if(lowerCase < lowerLimit){
-        System.out.println("The password did not have enough: \nlowercase letters");
-    }else if(upperCase < upperLimit){
-        System.out.println("The password did not have enough: \nuppercase letters");
+    } else {
+        System.out.println("The password did not have enough: \n");
+        if(digit < digitLimit){
+        System.out.println("digits");
+        }
+        if(lowerCase < lowerLimit){
+        System.out.println("lowercase letters");
+        }
+        if(upperCase < upperLimit){
+        System.out.println("uppercase letters");
+        }
     }
+    kb.close();
 }
 }
