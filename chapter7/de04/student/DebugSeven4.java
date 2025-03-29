@@ -17,16 +17,15 @@ public class DebugSeven4
       aString = kb.nextLine();
       stringLength = aString.length();
       System.out.print("In all lowercase, the String is: ");
-      for(int i = 0; i <= stringLength; i++)
+      for(int i = 0; i < stringLength; i++)
       {
-         char ch = Character.toLowerCase(aStringcharAt(i));
+         char ch = Character.toLowerCase(aString.charAt(i));
          System.out.print(ch);
-         if(!Character.isLetter(ch))
+         if(Character.isLetter(ch))
             numLetters++;
       }
       System.out.println();
-      System.out.println
-         ("The number of CHARACTERS in the string is " + stringLength);
-      System.out.println("The number of LETTERS is + numLetters);
+      System.out.println("The number of CHARACTERS in the string is " + stringLength);
+      System.out.println("The number of LETTERS is " + numLetters);
    }
 }
