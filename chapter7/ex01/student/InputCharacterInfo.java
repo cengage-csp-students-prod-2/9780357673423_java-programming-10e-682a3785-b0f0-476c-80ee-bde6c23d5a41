@@ -1,6 +1,11 @@
-public class CharacterInfo {
-    public static void main(Sting[] args) {
-        char aChar = 'C';
+import java.util.*;
+public class InputCharacterInfo {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        
+        System.out.print("Enter a character... ");
+        char aChar = kb.next().charAt(0);
+
         System.out.println("The character is " + aChar);
         if(Character.isUpperCase(aChar))
             System.out.println(aChar + " is uppercase");
