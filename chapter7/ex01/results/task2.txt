@@ -1,0 +1,6 @@
+
+Status: FAILED!
+Test: The `InputCharacterInfo` program displays the correct output for the input character.
+Reason: null
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
