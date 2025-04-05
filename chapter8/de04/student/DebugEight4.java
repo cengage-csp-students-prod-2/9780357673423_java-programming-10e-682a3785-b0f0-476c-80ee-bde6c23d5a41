@@ -9,20 +9,20 @@ public class DebugEight4
       int x = 0, y;
       String array[] = new String[100];
       String entry;
-      final String STOP = XXX;
+      final String STOP = "XXX";
       System.out.print("Enter any word. Enter " + STOP +
          " when you want to stop >> "); 
       entry = input.nextLine();
       while(!(entry.equals(STOP)))
       {
          array[x] = entry;
-         ++x
+         ++x;
          System.out.print("Enter another word. Enter " +
             STOP + " when you want to stop >> "); 
          entry = input.nextLine();
       }
       System.out.println("The words in reverse order are: ");
-      for(y = x - 1; y > 0; --x)
+      for(y = x - 1; y >= 0; --y)
          System.out.print(array[y] + " ");
       System.out.println();
    }
