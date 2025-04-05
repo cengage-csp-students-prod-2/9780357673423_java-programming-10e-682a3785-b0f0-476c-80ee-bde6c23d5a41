@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `DistanceFromAverage` program accepts 15 input value.
+Reason: null
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DistanceFromAverage` program accepts 15 input value.
+Reason: null
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
