@@ -10,15 +10,24 @@ public class DistanceFromAverage{
         Scanner input = new Scanner(System.in);
         double entry;
 
-        System.out.print("Enter a numeric value or 99999 to quit >> ");
-        entry = input.nextDouble();
+        while (count < MAX) {
+            System.out.print(count == 0
+                ? "Enter a numeric value or 99999 to quit >> "
+                : "Enter next numeric value or 99999 to quit >> ");
 
-        while(entry != QUIT && count < MAX){
+            if (!input.hasNextDouble()) {
+                break; // safely exit if no more input
+            }
+
+            entry = input.nextDouble();
+
+            if (entry == QUIT) {
+                break;
+            }
+
             distances[count] = entry;
             sum += entry;
             count++;
-            System.out.print("Enter next numeric value or 99999 to quit >> ");
-            entry = input.nextDouble();
         }
 
         if(count == 0){
