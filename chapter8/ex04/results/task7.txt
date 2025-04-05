@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `ArrayMethodDemo` program displays the care options and the cost of the selection.
-Reason: The 10 numbers in this simulation are 6, 1, 35, 34, 41, 32, 35, 0, 24, 27. The program should display the average of these numbers. Unable to find '27.9' in the program's output, 
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-05 21:36:05.605658
