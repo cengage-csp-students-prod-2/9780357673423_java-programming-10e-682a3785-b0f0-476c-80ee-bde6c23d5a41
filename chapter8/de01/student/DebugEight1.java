@@ -26,11 +26,12 @@ public class DebugEight1
       userCode = entry.charAt(0);
       for(int i = 0; i < okayCodes.length; ++i)
       {
-         if(userCode == okayCodes[i])
+         if(userCode == okayCodes[i]){
             found = true;
             break;
+         }
       }
-      if(!found)
+      if(found)
          System.out.println("Good code");
       else
          System.out.println("Sorry code not found");
