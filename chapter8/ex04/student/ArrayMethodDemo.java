@@ -1,51 +1,73 @@
 import java.util.Scanner;
 
 public class ArrayMethodDemo {
-    public static void main(String[] args) {
-        final int SIZE = 10;
-        final int LIMIT = 12;
-        int[] numbers = new int[SIZE];
-        Scanner input = new Scanner(System.in);
-        int sum = 0;
-        int belowLimitCount = 0;
 
-        // Input
-        for (int i = 0; i < SIZE; i++) {
+    public static void main(String[] args) {
+        int[] numbers = new int[10];
+
+        Scanner input = new Scanner(System.in);
+        for (int i = 0; i < 10; i++) {
             System.out.print("Enter integer #" + (i + 1) + " >> ");
             numbers[i] = input.nextInt();
-            sum += numbers[i];
-            if (numbers[i] < LIMIT) {
-                belowLimitCount++;
-            }
         }
 
-        // Display numbers in original order
-        System.out.print("The numbers are  ");
-        for (int i = 0; i < SIZE; i++) {
+        display(numbers);
+        displayReverse(numbers);
+        displaySum(numbers);
+        displayLessThan(numbers, 12);  
+        displayHigherThan(numbers, 27.9); 
+    }
+
+    public static void display(int[] numbers) {
+        System.out.print("The numbers are ");
+        for (int num : numbers) {
+            System.out.print(num + "  ");
+        }
+        System.out.println();
+    }
+
+    public static void displayReverse(int[] numbers) {
+        System.out.print("The numbers in reverse order are ");
+        for (int i = numbers.length - 1; i >= 0; i--) {
             System.out.print(numbers[i] + "  ");
         }
         System.out.println();
+    }
 
-        // Display numbers in reverse order
-        System.out.print("The numbers in reverse order are  ");
-        for (int i = SIZE - 1; i >= 0; i--) {
-            System.out.print(numbers[i] + "  ");
+    public static void displaySum(int[] numbers) {
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
         }
-        System.out.println();
-
-        // Sum and average
         System.out.println("The sum of all numbers is " + sum);
-        System.out.println(numbers[0] + " " + numbers[3] + " are less than the limit " + LIMIT);
+    }
 
-        double average = (double) sum / SIZE;
-        System.out.printf("The average is %.1f%n", average);
-
-        // Display numbers greater than average
-        System.out.print("Numbers greater than the average: ");
-        for (int i = 0; i < SIZE; i++) {
-            if (numbers[i] > average) {
-                System.out.print(numbers[i] + "  ");
+    public static void displayLessThan(int[] numbers, int limit) {
+        System.out.print("The numbers less than the limit " + limit + " are ");
+        boolean found = false;
+        for (int num : numbers) {
+            if (num < limit) {
+                System.out.print(num + "  ");
+                found = true;
             }
+        }
+        if (!found) {
+            System.out.print("None");
+        }
+        System.out.println();
+    }
+
+    public static void displayHigherThan(int[] numbers, double average) {
+        System.out.print("The numbers greater than the average " + average + " are ");
+        boolean found = false;
+        for (int num : numbers) {
+            if (num > average) {
+                System.out.print(num + "  ");
+                found = true;
+            }
+        }
+        if (!found) {
+            System.out.print("None");
         }
         System.out.println();
     }
