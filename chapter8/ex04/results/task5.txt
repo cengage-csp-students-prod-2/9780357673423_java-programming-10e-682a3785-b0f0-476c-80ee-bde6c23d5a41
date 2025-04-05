@@ -1,16 +1,6 @@
 
-Status: FAILED!
-Test: The `ArrayMethodDemo` `displayLessThan()` method has the correct method signature.
-Reason: The `displayLessThan()` method should have a method signature of `displayLessThan(int[], int)`.
-The first parameter is the array argument and the second parameter is limit value.
-In this exercise the limit is 12. ArrayMethodDemo.displayLessThan([I, int)
-Error : class java.lang.NoSuchMethodException
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `ArrayMethodDemo` `displayLessThan()` method has the correct method signature.
-Reason: The `displayLessThan()` method should have a method signature of `displayLessThan(int[], int)`.
-The first parameter is the array argument and the second parameter is limit value.
-In this exercise the limit is 12. ArrayMethodDemo.displayLessThan([I, int)
-Error : class java.lang.NoSuchMethodException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-05 21:30:42.535555
