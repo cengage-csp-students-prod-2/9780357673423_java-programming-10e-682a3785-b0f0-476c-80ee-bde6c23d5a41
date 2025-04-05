@@ -19,25 +19,23 @@ class DebugEight2
       books[5][0] = "Sound and the Fury";
       books[5][1] = "William Faulkner";
       String entry;
-      String shortEntry;
-      int num, x;
       boolean isFound = false;
       while(!isFound)
       {
          System.out.println("Enter the first three characters");
-         System.out.print("of a book title omitting \"A\" or \"The" >> ");
-         entry = inputnextLine();
-         shortEntry = entry.substring(3);
-         for(x = 0; x < books.length; ++x)
-            if(books[x][0].startsWith(shortEntry))
+         System.out.print("of a book title omitting \"A\" or \"The\" >> ");
+         entry = input.nextLine().toLowerCase();
+         for(int x = 0; x < books.length; ++x)
+            if(books[x][0].toLowerCase().startsWith(entry))
             {
-               isFound == true;
+               isFound = true;
                System.out.println(books[x][0] +
-                  " was written by " + pooks[x][1]);
-               x = books.length();
+                  " was written by " + books[x][1]);
+                  break;
             }
-         if(!isFound)
+         if(!isFound){
             System.out.println("Sorry - no such book in our database");
+         }
       }
    }
 }
