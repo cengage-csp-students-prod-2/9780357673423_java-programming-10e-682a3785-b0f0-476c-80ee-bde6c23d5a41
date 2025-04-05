@@ -1,27 +1,6 @@
 
-Status: FAILED!
-Test: The `DebugEight3` program accepts user input and displays the correct output.
-Reason: Your program did not accept the simulated input.
-The simulated input is as follows: 
-a
-Make sure your program follows the example shown in the instructions. Array index out of range: 3
-Error : class java.lang.ArrayIndexOutOfBoundsException
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `DebugEight3` program accepts user input and displays the correct output.
-Reason: Your program did not accept the simulated input.
-The simulated input is as follows: 
-b
-Make sure your program follows the example shown in the instructions. Array index out of range: 4
-Error : class java.lang.ArrayIndexOutOfBoundsException
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `DebugEight3` program accepts user input and displays the correct output.
-Reason: Your program did not accept the simulated input.
-The simulated input is as follows: 
-c
-Make sure your program follows the example shown in the instructions. Array index out of range: 5
-Error : class java.lang.ArrayIndexOutOfBoundsException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-05 14:23:17.110223
