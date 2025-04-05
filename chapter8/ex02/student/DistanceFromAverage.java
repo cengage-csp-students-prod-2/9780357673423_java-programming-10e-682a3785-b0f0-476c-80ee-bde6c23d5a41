@@ -25,7 +25,7 @@ public class DistanceFromAverage{
             System.out.println("You must enter a numeric value.");
         }else{
             double average = sum / count;
-            System.out.printf("You entered %d numbers and their average is %.3f\n", count, average);
+            System.out.println("You entered " + count + " numbers and their average is " + average);
 
             for(int i = 0; i < count; i++){
                 double difference = distances[i] - average;
