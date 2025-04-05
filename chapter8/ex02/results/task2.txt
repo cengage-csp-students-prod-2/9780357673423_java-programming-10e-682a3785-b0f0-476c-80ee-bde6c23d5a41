@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `DistanceFromAverage` program accepts `double` input values and displays each number's distance from the average of all input values.
-Reason: In this simulation, the user entered six numbers, 2.15, 21.14, 4.22, 12.7, 10.17, 21.1. The average of the six numbers is 11.913333333333332. Unable to find '11.913333333333332' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-05 21:05:31.436097
