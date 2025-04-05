@@ -35,8 +35,8 @@ public class DebugEight3
         System.out.println("Invalid floor plan code entered");
       else
       {
-        if(fp > floorPlans.length - 1)
-           fp = fp - floorPlans.length;
+        if(fp >= 3)
+           fp = fp - 3;
         System.out.println("Model " + plan +
            " is priced at only $" +
            pricesInThousands[fp] + ",000");
