@@ -80,7 +80,7 @@ jobs:
       - name: Checkout test cases
         uses: actions/checkout@v4
         with:
-          repository: cengage-ide-content/9780357673423_java-programming-10e
+          repository: cengage-ide-content/9780357673423_java-programming-10e-tests
           token: ${{ secrets.TEST_FILES_AUTH  }}
           ref: ${{ github.event.inputs.TEST_BRANCH }}
 
