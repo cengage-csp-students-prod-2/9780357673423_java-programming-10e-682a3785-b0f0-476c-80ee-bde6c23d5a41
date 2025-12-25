@@ -1,6 +1,6 @@
 {
   "name": "MindTap",
-  "image": "mcr.microsoft.com/devcontainers/universal:4-noble",
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -27,7 +27,10 @@
     }
   },
   "features": {
-    "ghcr.io/devcontainers/features/desktop-lite:1": {}
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
+      "webBrowser": false,
+      "audio": false
+    }
   },
   "forwardPorts": [3005, 6080],
   "portsAttributes": {
