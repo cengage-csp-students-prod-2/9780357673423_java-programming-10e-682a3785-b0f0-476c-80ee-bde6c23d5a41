@@ -1,6 +1,9 @@
 {
   "name": "MindTap",
-  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
   "customizations": {
     "vscode": {
       "extensions": [
